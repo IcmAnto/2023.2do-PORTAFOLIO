@@ -52,7 +52,7 @@ function fallDiagonal(element, speed) {
 }
 
 function setup() {
-    canvas = createCanvas(windowWidth, windowHeight);
+createCanvas(windowWidth, windowHeight);
   
   for (let i = 0; i < 12; i++) {
     let x = random(width); // Random x-coordinate
