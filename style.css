@@ -5,15 +5,12 @@ html, body {
 
 .griddd {
   max-width: 900px;
-  margin: 20px auto;
+  margin: auto auto;
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr ;
   gap: 2em;
-}
-
-.griddd > ul {
-  background: white;
 }
 
 .header {
