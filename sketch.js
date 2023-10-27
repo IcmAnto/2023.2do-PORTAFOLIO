@@ -15,7 +15,7 @@ class Star {
       this.x - 90,
       this.y - 90
     );
-    gradient.addColorStop(0, color(255, 255, 255, 150));
+    gradient.addColorStop(0, color(255, 255, 255, 180));
     gradient.addColorStop(1, color(255, 255, 255, 0));
     drawingContext.fillStyle = gradient;
 
@@ -29,12 +29,12 @@ class Star {
       this.x - 60,
       this.y - 90
     );
-    pop();
 
     strokeWeight(4);
     stroke(0, 0, 0, 10);
-    fill(255, 255, 255);
     circle(this.x, this.y, 10);
+    
+    pop();
   }
 }
 
@@ -66,7 +66,7 @@ function draw() {
   
   for (let i = 0; i < sStars.length; i++) {
     sStars[i].display();
-    fallDiagonal(sStars[i], 0.5);
+    fallDiagonal(sStars[i], 0.2);
   }
 }
 
