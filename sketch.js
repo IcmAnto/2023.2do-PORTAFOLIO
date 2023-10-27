@@ -1,4 +1,5 @@
 let sStars = [];
+let canvas;
 
 class Star {
   constructor(x, y) {
@@ -48,7 +49,7 @@ function fallDiagonal(element, speed) {
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight);
     canvas.position (0,0);
     canvas.style('z-index','-1');
   
