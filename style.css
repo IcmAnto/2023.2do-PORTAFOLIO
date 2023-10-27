@@ -1,9 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
+}
+
+.griddd {
+  background: blue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
   gap: 2em;
 }
 
