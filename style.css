@@ -13,7 +13,7 @@ html, body {
   gap: 2em;
 }
 
-.header {
+.head {
   grid-column: 3 / span2;
   grid-row: 1;
 }
