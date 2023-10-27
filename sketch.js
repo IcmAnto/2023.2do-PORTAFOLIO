@@ -1,5 +1,3 @@
-const canvas = document.getElementById("background-canvas");
-const context = canvas.getContext("2d");
 
 let sStars = [];
 let canvas;
