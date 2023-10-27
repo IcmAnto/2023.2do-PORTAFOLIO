@@ -15,7 +15,7 @@ class Star {
       this.x - 90,
       this.y - 90
     );
-    gradient.addColorStop(0, color(255, 255, 255));
+    gradient.addColorStop(0, color(255, 255, 255, 150));
     gradient.addColorStop(1, color(255, 255, 255, 0));
     drawingContext.fillStyle = gradient;
 
