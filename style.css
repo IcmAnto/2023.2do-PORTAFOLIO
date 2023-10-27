@@ -24,12 +24,12 @@ html, body {
 }
 
 .building 2 {
-  grid-column: span1;
+  grid-column: 2 / span1;
   grid-row: 2;
 }
 
 .building 3 {
-  grid-column: span1;
+  grid-column: 3 / span1;
   grid-row: 2;
 }
 
