@@ -3,9 +3,6 @@ html, body {
   padding: 0;
 }
 
-#background-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+canvas {
+  display: block;
 }
