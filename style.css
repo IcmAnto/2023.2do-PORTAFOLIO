@@ -3,14 +3,14 @@ html, body {
   padding: 0;
 }
 
-.grid 1 -big {
+.grid 1 -bg {
   max-width: 900px;
   margin: auto auto;
   display: grid;
   grid-template-rows: 1fr, 2fr;
 }
 
-.tittle element {
+.tittle el {
   grid-row: 1;
   justify-items: end;
 }
