@@ -3,9 +3,20 @@ html, body {
   padding: 0;
 }
 
-.griddd {
+.grid 1 -big {
   max-width: 900px;
   margin: auto auto;
+  display: grid;
+  grid-template-rows: 1fr, 2fr;
+}
+
+.tittle element {
+  grid-row: 1;
+  justify-items: end;
+}
+
+.grid 2-down {  
+  grid-row: 2;
   
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,24 +24,24 @@ html, body {
   gap: 2em;
 }
 
-.head {
-  grid-column: 3 / span2;
-  grid-row: 1;
-}
-
 .building 1 {
   grid-column: 1 / span1;
-  grid-row: 2;
+  grid-row: 2 / span3;
 }
 
 .building 2 {
   grid-column: 2 / span1;
-  grid-row: 2;
+  grid-row: 1 / span4;
 }
 
 .building 3 {
   grid-column: 3 / span1;
-  grid-row: 2;
+  grid-row: 2 / span3;
+}
+
+.menu {
+  grid-column: 4 / span1;
+  grid-row: 2 / span2;
 }
 
 canvas { 
