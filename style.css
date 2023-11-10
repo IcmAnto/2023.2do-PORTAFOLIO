@@ -6,7 +6,21 @@ html, body {
 .edificios{
   display: grid;
   grid-columns: 1fr 1fr 1fr;
+  grid-gap: 5em;
+}
+
+.trabajosUni{
+  grid
+}
+
+.trabajosP{
   
+}
+
+.trabajosIE{
+  display: grid;
+  grid-columns: 1fr 1fr;
+  grid-rows: 1fr 1fr 1fr;
 }
 
 canvas { 
