@@ -6,20 +6,21 @@
 html, body {
   margin: 3em;
   padding: 0;
-  font-family: 'Kavoon', serif;
   font-family: 'League Spartan', sans-serif;
 }
 
 main{
   width: 960px;
   margin: 4em ;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .h1{
-
+  font-family: 'Kavoon', serif;
 }
 
 .h2{
+    font-family: 'Kavoon', serif;
 }
 
 
