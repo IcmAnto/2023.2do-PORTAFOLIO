@@ -6,22 +6,30 @@ html, body {
 #edificios {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-row: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 2em;
-  margin: 3em;
+  margin: 2rem auto;
 }
 
 .trabajosUni {
   /* Add your grid properties here if needed */
+  grid-column: 1 / span1;
+  grid-row: 2 / span4;
 }
 
 .trabajosP {
   /* Add your grid properties here */
+  grid-column: 2 / span1;
+  grid-row: 1 / span5;
 }
 
 .trabajosIE {
+  grid-column: 3 / span1;
+  grid-row: 3 / span3;
+  
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 canvas { 
