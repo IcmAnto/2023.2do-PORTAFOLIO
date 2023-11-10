@@ -11,7 +11,7 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-row: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 1rem;
 }
 
 .trabajosUni {
