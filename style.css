@@ -32,6 +32,11 @@ html, body {
   grid-template-rows: 1fr 1fr;
 }
 
+.pro-IE{
+  grid-column: 1 / span1;
+  grid-row: 2 / span1;
+}
+
 canvas { 
   display: block; 
   position: absolute;
