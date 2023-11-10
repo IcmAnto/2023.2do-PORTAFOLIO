@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-.edificios{
+#edificios{
   display: grid;
   grid-columns: 1fr 1fr 1fr;
   grid-gap: 5em;
