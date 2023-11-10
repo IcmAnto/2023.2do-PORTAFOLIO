@@ -3,13 +3,13 @@ html, body {
   padding: 0;
 }
 
-header{
-  text-align: right;
-}
-
 main{
   width: 960px;
   margin: 4rem ;
+}
+
+.header-content{
+  text-align: right;
 }
 
 #edificios {
