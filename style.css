@@ -5,7 +5,7 @@ html, body {
 
 main{
   width: 960px;
-  margin: 4rem ;
+  margin: 4em ;
 }
 
 .header-content{
@@ -22,7 +22,7 @@ main{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) ;
   grid-template-row: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 1em;
 }
 
 .trabajosUni {
