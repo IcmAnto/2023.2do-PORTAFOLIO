@@ -12,6 +12,12 @@ main{
   text-align: right;
 }
 
+#meniu{
+  position: fixed;
+  top: 30%;
+  right: 1%;
+}
+
 #edificios {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
