@@ -3,24 +3,24 @@ html, body {
   padding: 0;
 }
 
-#edificios{
+#edificios {
   display: grid;
-  grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5em;
 }
 
-.trabajosUni{
-  grid
+.trabajosUni {
+  /* Add your grid properties here if needed */
 }
 
-.trabajosP{
-  
+.trabajosP {
+  /* Add your grid properties here */
 }
 
-.trabajosIE{
+.trabajosIE {
   display: grid;
-  grid-columns: 1fr 1fr;
-  grid-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 canvas { 
@@ -30,3 +30,4 @@ canvas {
   left: 0;
   z-index: -1;
 }
+
