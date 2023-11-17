@@ -35,7 +35,7 @@ h2{
 #edificios {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) ;
-  grid-template-row: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
@@ -43,12 +43,14 @@ h2{
   /* Add your grid properties here if needed */
   grid-column: 1 / span1;
   grid-row: 2 / span4;
+  background-color: darkorange;
 }
 
 .trabajosP {
   /* Add your grid properties here */
   grid-column: 2 / span1;
   grid-row: 1 / span5;
+  background-color: darkolivegreen;
 }
 
 .trabajosIE {
@@ -58,6 +60,7 @@ h2{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: saddlebrown;
 }
 
 .pro-IE{
