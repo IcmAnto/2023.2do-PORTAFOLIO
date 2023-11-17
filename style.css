@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=League+Spartan:wght@100;400;600;700&display=swap');
 
 html, body {
-  margin: 3em;
+  margin: 2em;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
 }
 
 main {
-  width: 960px;
-  margin: 4em;
+  width: 80%;
+  margin: 0 auto;
   font-family: 'League Spartan', sans-serif;
+  font-size: 42;
 }
 
 canvas { 
@@ -22,15 +23,19 @@ canvas {
 
 h1 {
   font-family: 'Kavoon', serif;
-  font-size: 120px; /* You can adjust the size here */
+  font-size: 128px; /* You can adjust the size here */
 }
 
 h2 {
-  font-family: 'League Spartan', sans-serif; /* Fix 'bold' to 'sans-serif' */
+  font-family: 'League Spartan', sans-serif;
+  font-size: 56px;
 }
 
 .header-content {
   text-align: right;
+  right: 10%;
+  top: 5%;
+  
 }
 
 #meniu {
@@ -50,14 +55,14 @@ h2 {
   /* Add your grid properties here if needed */
   grid-column: 1 / span1;
   grid-row: 2 / span1;
-  background-color: darkorange;
+  background-color: rgba(80, 0, 0, 1);
 }
 
 .trabajosP {
   /* Add your grid properties here */
   grid-column: 2 / ;
   grid-row: 1 / ;
-  background-color: darkolivegreen;
+  background-color: rgba(80, 48, 0, 1);
 }
 
 .trabajosIE {
@@ -67,7 +72,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: saddlebrown;
+  background-color: rgba(80, 0, 0, 1);
 }
 
 .pro-IE {
