@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=League+Spartan:wght@100;400;600;700&display=swap');
+
+html, body {
+  margin: 2em;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'League Spartan', sans-serif;
+}
+
+canvas { 
+  display: block; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Kavoon', serif;
+  font-size: 128px; /* You can adjust the size here */
+}
+
+h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 56px;
+}
+
+.header-content {
+  text-align: right;
+  right: 10%;
+  top: 5%;
+  
+}
+
+#meniu {
+  position: fixed;
+  top: 30%;
+  right: 1%;
+}
+
+#edificios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+
+.trabajosUni {
+  /* Add your grid properties here if needed */
+  grid-column: 1 / 2;
+  grid-row: 2 / span4;
+  background-color: rgba(80, 0, 0, 1);
+}
+
+.trabajosP {
+  /* Add your grid properties here */
+  grid-column: 2 / 3;
+  grid-row: 1 / span5;
+  background-color: rgba(80, 48, 0, 1);
+}
+
+.trabajosIE {
+  grid-column: 3 / 4;
+  grid-row: 3 / span3;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(80, 0, 0, 1);
+}
+
+.pro-IE {
+  grid-column: 1 / span1;
+  grid-row: 2 / span1;
+}
