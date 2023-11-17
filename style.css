@@ -41,7 +41,7 @@ h2{
 
 .trabajosUni {
   /* Add your grid properties here if needed */
-  grid-column: 1 /;
+  grid-column: 1 / span2;
   grid-row: 2 / ;
   background-color: darkorange;
 }
@@ -49,7 +49,7 @@ h2{
 .trabajosP {
   /* Add your grid properties here */
   grid-column: 2 / ;
-  grid-row: 1 / span3;
+  grid-row: 1 / ;
   background-color: darkolivegreen;
 }
 
