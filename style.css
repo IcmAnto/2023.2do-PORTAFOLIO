@@ -41,21 +41,21 @@ h2{
 
 .trabajosUni {
   /* Add your grid properties here if needed */
-  grid-column: 1 / span1;
-  grid-row: 2 / span4;
+  grid-row: 1 / span1;
+  grid-column: 2 / span4;
   background-color: darkorange;
 }
 
 .trabajosP {
   /* Add your grid properties here */
-  grid-column: 2 / span1;
-  grid-row: 1 / span5;
+  grid-row: 2 / span1;
+  grid-column: 1 / span5;
   background-color: darkolivegreen;
 }
 
 .trabajosIE {
-  grid-column: 3 / span1;
-  grid-row: 3 / span3;
+  grid-row: 3 / span1;
+  grid-column: 3 / span3;
   
   display: grid;
   grid-template-columns: 1fr;
