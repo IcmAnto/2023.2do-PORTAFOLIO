@@ -34,7 +34,7 @@ h2{
 
 #edificios {
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr)) ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
 }
