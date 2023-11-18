@@ -25,6 +25,8 @@ main {
 h1 {
   font-family: 'Kavoon', serif;
   font-size: 64px; 
+  color:white;
+  border: 1px solid #000; /* 1px solid black border */
 }
 
 h2 {
@@ -34,7 +36,7 @@ h2 {
 
 p.subtitlee{
   font-family: 'Kavoon', serif;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 
