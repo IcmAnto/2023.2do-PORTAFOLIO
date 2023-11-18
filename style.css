@@ -67,7 +67,8 @@ h2 {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2em;
+  column-gap: 2em;
+  row-gap: 1em;
 }
 
 
