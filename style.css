@@ -54,6 +54,10 @@ h2 {
   column-gap: 1em;
 }
 
+#edificios > * {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); /* Adjust the shadow values as needed */
+}
+
 
 
 .trabajosUni {
