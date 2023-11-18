@@ -14,7 +14,7 @@ html, body {
   font-family: 'League Spartan', sans-serif;
 }
 
-main{
+main {
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: 20% 80%;
@@ -30,18 +30,16 @@ h2 {
   font-size: 56px;
 }
 
-
-
 #title-content {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
+  grid-column: 1;
+  grid-row: 1;
 
   text-align: right;
 }
 
 #meniu {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3 ;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
 }
 
 #edificios {
@@ -54,29 +52,25 @@ h2 {
   column-gap: 1em;
 }
 
-
-
 .trabajosUni {
-  /* Add your grid properties here if needed */
-  grid-column: 1 / 2;
-  grid-row: 2 / span4;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 4;
   background-color: rgba(80, 0, 0, 1);
- }
- 
- .trabajosP {
-  /* Add your grid properties here */
-  grid-column: 2 / 3;
-  grid-row: 1 / span5;
+}
+
+.trabajosP {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 5;
   background-color: rgba(80, 48, 0, 1);
- }
- 
- .trabajosIE {
-  grid-column: 3 / 4;
-  grid-row: 3 / span3;
-   display: grid;
+}
+
+.trabajosIE {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 3;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: rgba(80, 0, 0, 1);
- }
- 
+}
+
  
