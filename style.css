@@ -70,6 +70,10 @@ h2 {
   gap: 2em;
 }
 
+#edificios .edTitle{
+  grid-column: 1fr / span 2;
+}
+
 
 .trabajosUni {
   grid-column: 1 / span 1;
