@@ -33,7 +33,7 @@ h1 {
 
 h2 {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.75em;
+  font-size: 100%;
 }
 
 p.subtitlee{
@@ -89,7 +89,7 @@ img{
 }
 
 #edificios > * {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); 
+  box-shadow: 2px 2px 5px rgb(0, 0, 0); 
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
