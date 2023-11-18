@@ -4,6 +4,12 @@ html, body {
   margin: 2em;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
+
+  display: grid;
+  grid-template-areas:'titulo titulo menuu'
+                      'ed ed menuu';
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 20% 80%;
 }
 
 main {
@@ -31,13 +37,6 @@ h2 {
 }
 
 
-.todo{
-  display: grid;
-  grid-template-areas:'titulo titulo menuu'
-                      'ed ed menuu';
-  grid-template-columns: 90% 10%;
-  grid-template-rows: 20% 80%;
-}
 
 .header-content {
   grid-area: titulo;
