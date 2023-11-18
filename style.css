@@ -60,8 +60,6 @@ h2 {
   grid-column: 1 / span 1;
   grid-row: 2 / span 4;
   background-color: rgba(80, 0, 0, 1);
-  box-shadow: rgb(0, 0, 0);
-  box-shadow: 20px;
 }
 
 .trabajosP {
