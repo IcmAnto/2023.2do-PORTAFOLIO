@@ -47,4 +47,41 @@ h2 {
 #edificios {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
 }
+
+
+
+.trabajosUni {
+  /* Add your grid properties here if needed */
+  grid-column: 1 / 2;
+  grid-row: 2 / span4;
+  background-color: rgba(80, 0, 0, 1);
+ }
+ 
+ .trabajosP {
+  /* Add your grid properties here */
+  grid-column: 2 / 3;
+  grid-row: 1 / span5;
+  background-color: rgba(80, 48, 0, 1);
+ }
+ 
+ .trabajosIE {
+  grid-column: 3 / 4;
+  grid-row: 3 / span3;
+   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(80, 0, 0, 1);
+ }
+ 
+ 
+ .pro-IE {
+  grid-column: 1 / span1;
+  grid-row: 2 / span1;
+ }
+ 
