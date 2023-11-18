@@ -63,6 +63,7 @@ img{
 
   text-align: right;
   margin-top: 0;
+  margin-bottom: 1em;
 
   padding: 1em;
 }
@@ -90,8 +91,8 @@ img{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: auto;
-  grid-auto-flow: dense;
   column-gap: 1em;
+
 }
 
 #edificios > * {
@@ -99,6 +100,9 @@ img{
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
+
+  border-radius: 0.5em;
+  border-color: white;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
