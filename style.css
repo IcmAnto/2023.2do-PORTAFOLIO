@@ -14,8 +14,6 @@ html, body {
   font-family: 'League Spartan', sans-serif;
 
   display: grid;
-  grid-template-areas:'titulo menuu'
-                      'ed menuu';
   grid-template-columns: 90% 10%;
   grid-template-rows: 20% 80%;
 }
@@ -33,15 +31,18 @@ h2 {
 
 
 #title-content {
-  grid-area: titulo;
+  grid-column: 1 / span1;
+  grid-row: 1 / span1;
 
   text-align: right;
 }
 
 #meniu {
-  grid-area: menuu;
+  grid-column: 2 / span1;
+  grid-row: 1 / span2;
 }
 
 #edificios {
-  grid-area: ed;
+  grid-column: 1 / span1;
+  grid-row: 2 / span1;
 }
