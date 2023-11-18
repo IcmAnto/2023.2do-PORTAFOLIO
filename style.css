@@ -45,10 +45,12 @@ h2 {
 #edificios {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
+  max-height: 80vh; /* Set the maximum height to 80% of the viewport height */
+  overflow: auto; /* Add overflow property to enable scrolling if needed */
 
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 1em;
 }
 
