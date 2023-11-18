@@ -63,10 +63,11 @@ h2 {
 
 #edificios > * {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); /* Adjust the shadow values as needed */
-  padding: 1em;
+  padding: 2em;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2em;
 }
 
 
