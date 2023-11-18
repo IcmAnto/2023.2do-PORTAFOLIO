@@ -12,6 +12,7 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
 }
 
 main {
@@ -27,7 +28,7 @@ h1 {
 
 h2 {
   font-family: 'League Spartan', sans-serif;
-  font-size: 56px;
+  font-size: 36px;
 }
 
 #title-content {
@@ -56,6 +57,7 @@ h2 {
 
 #edificios > * {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); /* Adjust the shadow values as needed */
+
 }
 
 
