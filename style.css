@@ -78,7 +78,8 @@ p.subtitlee{
 
 #edificios > * {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); 
-  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-top: 1em;
 
   display: grid;
