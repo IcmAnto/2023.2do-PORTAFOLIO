@@ -48,7 +48,7 @@ p.subtitlee{
 }
 
 img{
-  max-width: 100%; /* Ensures images don't exceed their container width */
+  max-width: 80px; /* Ensures images don't exceed their container width */
   height: auto;    /* Maintains aspect ratio when resizing */
   border: 2px solid rgba(255, 235, 133, 1);  
   box-shadow: 0 0 0.313em rgba(255, 235, 133, 0.25);
@@ -88,8 +88,9 @@ img{
   overflow: auto; 
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
   column-gap: 1em;
 }
 
