@@ -14,7 +14,7 @@ html, body {
   font-family: 'League Spartan', sans-serif;
 
   display: grid;
-  grid-template-areas:'titulo titulo'
+  grid-template-areas:'titulo titulo menuu'
                       'ed ed menuu';
   grid-template-columns: 90% 10%;
   grid-template-rows: 20% 80%;
