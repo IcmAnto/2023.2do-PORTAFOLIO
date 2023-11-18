@@ -22,7 +22,7 @@ canvas {
 
 h1 {
   font-family: 'Kavoon', serif;
-  font-size: 128px; /* You can adjust the size here */
+  font-size: 64px; 
 }
 
 h2 {
@@ -43,8 +43,6 @@ h2 {
   grid-area: titulo;
 
   text-align: right;
-  right: 10%;
-  top: 1%;
 }
 
 #meniu {
