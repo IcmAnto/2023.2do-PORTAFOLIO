@@ -36,6 +36,7 @@ h2 {
 
 p.subtitlee{
   font-family: 'Kavoon', serif;
+  text-shadow: 0, 0, 0, rgba(0, 63, 89, 1);
   font-size: 24px;
 }
 
@@ -106,5 +107,3 @@ h2.edTitle {
 
   background-color: rgba(80, 0, 0, 1);
 }
-
- 
