@@ -30,20 +30,33 @@ h2 {
   font-size: 56px;
 }
 
+
+.todo{
+  display: grid;
+  grid-template-areas:'titulo titulo menuu'
+                      'ed ed menuu';
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 20% 80%;
+}
+
 .header-content {
+  grid-area: titulo;
+
   text-align: right;
   right: 10%;
-  top: 5%;
-  
+  top: 1%;
 }
 
 #meniu {
-  position: fixed;
+  grid-area: menuu;
+
   top: 30%;
   right: 1%;
 }
 
 #edificios {
+  grid-area: ed;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
