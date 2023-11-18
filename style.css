@@ -79,8 +79,8 @@ h2 {
   background-color: rgba(80, 0, 0, 1);
 }
 
-.edTitle{
-  grid-column: 1fr / span 2;
+h2.edTitle {
+  grid-column: span 2;
 }
 
 .trabajosP {
