@@ -32,6 +32,13 @@ h2 {
   font-size: 28px;
 }
 
+p.subtitlee{
+  font-family: 'Kavoon', serif;
+  font-size: 32px;
+}
+
+
+
 #title-content {
   grid-column: 1;
   grid-row: 1;
@@ -71,6 +78,10 @@ h2 {
   row-gap: 1em;
 }
 
+h2.edTitle {
+  grid-column: span 2;
+}
+
 
 
 .trabajosUni {
@@ -78,10 +89,6 @@ h2 {
   grid-row: 2 / span 4;
 
   background-color: rgba(80, 0, 0, 1);
-}
-
-h2.edTitle {
-  grid-column: span 2;
 }
 
 .trabajosP {
