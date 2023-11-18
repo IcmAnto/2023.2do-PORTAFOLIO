@@ -79,11 +79,11 @@ p.subtitlee{
 #edificios > * {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.567); 
   padding: 2em;
+  padding-top: 1em;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2em;
-  row-gap: 1em;
+  gap: 2em;
 }
 
 h2.edTitle {
