@@ -29,7 +29,7 @@ h1 {
   font-size: 4em; 
   color:white;
 
-  text-shadow: -0.25em -0.25em 0 rgba(0, 63, 89, 1), 0.25em -0.25em 0 rgba(0, 63, 89, 1), -0.25em 0.25em 0 rgba(0, 63, 89, 1), 0.25em 0.25em 0 rgba(0, 63, 89, 1), 0.25em 0.25em 0.313em rgb(0, 0, 0);
+  text-shadow: -0.063rem -0.063rem 0 rgba(0, 63, 89, 1), 0.063rem -0.063rem 0 rgba(0, 63, 89, 1), -0.063rem 0.063rem 0 rgba(0, 63, 89, 1), 0.063rem 0.063rem 0 rgba(0, 63, 89, 1), 0.063rem 0.063rem 0.313rem rgb(0, 0, 0);
   background-clip: text;
   display: inline-block;
 
@@ -46,7 +46,7 @@ h2 {
 p.subtitlee{
   font-family: 'Kavoon', serif;
   color: rgba(0, 63, 89, 1);
-  text-shadow: -0.25rem -0.25rem 0 rgba(255, 255, 255, 1), 0.25rem -0.25rem 0 rgba(255, 255, 255, 1), -0.25rem 0.25rem 0 rgba(255, 255, 255, 1), 0.25rem 0.25rem 0 rgba(255, 255, 255, 1), 0.25rem 0.25rem 0.313rem rgb(0, 0, 0);
+  text-shadow: -0.063rem -0.063rem 0 rgba(255, 255, 255, 1), 0.063rem -0.063rem 0 rgba(255, 255, 255, 1), -0.063rem 0.063rem 0 rgba(255, 255, 255, 1), 0.063rem 0.063rem 0 rgba(255, 255, 255, 1), 0.063rem 0.063rem 0.313rem rgb(0, 0, 0);
   background-clip: text;
   display: inline-block;
   font-size: 1.5em;
