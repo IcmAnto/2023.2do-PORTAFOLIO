@@ -88,6 +88,7 @@ img{
   background-color: rgba(255, 255, 255, 0.79);
   border-top-left-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
+  margin: 0px;
   
 }
 
@@ -97,8 +98,7 @@ img{
   height: 100%;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: repeat(5, minmax(50px, 109px));
+  grid-template-columns: repeat(3, 32%);
   column-gap: 1em;
 }
 
@@ -122,21 +122,20 @@ h2.edTitle {
 
 .trabajosUni {
   grid-column: 1 / span 1;
-  grid-row: 2 / span 4;
+  margin-top: 2em;
 
   background-color: rgba(80, 0, 0, 1);
 }
 
 .trabajosP {
   grid-column: 2 / span 1;
-  grid-row: 1 / span 5;
 
   background-color: rgba(80, 48, 0, 1);
 }
 
 .trabajosIE {
   grid-column: 3 / span 1;
-  grid-row: 3 / span 3;
+  margin-top: 3em;
 
   background-color: rgba(80, 0, 0, 1);
 }
