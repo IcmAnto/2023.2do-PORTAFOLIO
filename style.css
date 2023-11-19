@@ -6,6 +6,8 @@ canvas {
   top: 0;
   left: 0;
   z-index: -1;
+  height: 100vh;
+  
 }
 
 html, body {
@@ -100,9 +102,7 @@ img{
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
-
-  border-radius: 0.5em;
-  border-color: white;
+  height: 100%;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
