@@ -14,22 +14,22 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 main {
   display: grid;
   grid-template-columns: 80% 20%;
-  grid-template-rows: minmax(10%, 30%) minmax(70%, 90%);
-  gap: 1rem;
+  grid-template-rows: 17% 83%;
+  gap: 1em;
 }
 
 h1 {
   font-family: 'Kavoon', serif;
-  font-size: 4rem; 
+  font-size: 4em; 
   color:white;
 
-  text-shadow: -0.063rem -0.063rem 0 rgba(0, 63, 89, 1), 0.063rem -0.063rem 0 rgba(0, 63, 89, 1), -0.063rem 0.063rem 0 rgba(0, 63, 89, 1), 0.063rem 0.063rem 0 rgba(0, 63, 89, 1), 0.063rem 0.063rem 0.313rem rgb(0, 0, 0);
+  text-shadow: -0.063em -0.063em 0 rgba(0, 63, 89, 1), 0.063em -0.063em 0 rgba(0, 63, 89, 1), -0.063em 0.063em 0 rgba(0, 63, 89, 1), 0.063em 0.063em 0 rgba(0, 63, 89, 1), 0.063em 0.063em 0.313em rgb(0, 0, 0);
   background-clip: text;
   display: inline-block;
 
@@ -46,10 +46,10 @@ h2 {
 p.subtitlee{
   font-family: 'Kavoon', serif;
   color: rgba(0, 63, 89, 1);
-  text-shadow: -0.063rem -0.063rem 0 rgba(255, 255, 255, 1), 0.063rem -0.063rem 0 rgba(255, 255, 255, 1), -0.063rem 0.063rem 0 rgba(255, 255, 255, 1), 0.063rem 0.063rem 0 rgba(255, 255, 255, 1), 0.063rem 0.063rem 0.313rem rgb(0, 0, 0);
+  text-shadow: -0.063em -0.063em 0 rgba(255, 255, 255, 1), 0.063em -0.063em 0 rgba(255, 255, 255, 1), -0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0.313em rgb(0, 0, 0);
   background-clip: text;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-top: 0;
 }
 
@@ -57,7 +57,7 @@ img{
   max-width: 80px; /* Ensures images don't exceed their container width */
   height: auto;    /* Maintains aspect ratio when resizing */
   border: 2px solid rgba(255, 235, 133, 1);  
-  box-shadow: 0 0 0.313rem rgba(255, 235, 133, 0.25);
+  box-shadow: 0 0 0.313em rgba(255, 235, 133, 0.25);
   align-content: center;
 }
 
@@ -69,14 +69,14 @@ img{
 
   text-align: right;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 
-  padding: 1rem;
+  padding: 1em;
 }
 
 #title-content.trabajosP{
   font: 'Kavoon', serif;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 #meniu {
@@ -86,8 +86,8 @@ img{
   width: 200px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.79);
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
   
 }
 
@@ -99,19 +99,19 @@ img{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: repeat(5, minmax(50px, 109px));
-  column-gap: 1rem;
+  column-gap: 1em;
 }
 
 #edificios > * {
   box-shadow: 2px 2px 5px rgb(0, 0, 0); 
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
   height: 100%;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 2em;
 }
 
 h2.edTitle {
