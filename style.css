@@ -46,8 +46,9 @@ h2 {
 p.subtitlee{
   font-family: 'Kavoon', serif;
   color: rgba(0, 63, 89, 1);
-  text-shadow: 0 0 10px rgb(255, 255, 255);
-  text-shadow: 0.063em;
+  text-shadow: -0.25em -0.25em 0 rgba(255, 255, 255, 1), 0.25em -0.25em 0 rgba(255, 255, 255, 1), -0.25em 0.25em 0 rgba(255, 255, 255, 1), 0.25em 0.25em 0 rgba(255, 255, 255, 1);
+  background-clip: text;
+  display: inline-block;
   font-size: 1.5em;
   margin-top: 0;
 }
