@@ -14,7 +14,7 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 main {
@@ -40,7 +40,8 @@ h1 {
 
 h2 {
   font-family: 'League Spartan', sans-serif;
-  font-size: 100%;
+  font-size: 2em;
+  max-width: 100%;
 }
 
 p.subtitlee{
@@ -95,7 +96,8 @@ img{
 #edificios {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
-  height: 100%;
+  max-height: 100%;
+
 
   display: grid;
   grid-template-columns: repeat(3, 32%);
@@ -118,6 +120,10 @@ h2.edTitle {
   grid-column: span 2;
 }
 
+p.iconText {
+  max-width: 5em;
+  
+}
 
 
 .trabajosUni {
