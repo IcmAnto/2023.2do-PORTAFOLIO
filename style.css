@@ -55,7 +55,7 @@ p.subtitlee{
 }
 
 img{
-  max-width: 80px; /* Ensures images don't exceed their container width */
+  max-width: 100%; /* Ensures images don't exceed their container width */
   height: auto;    /* Maintains aspect ratio when resizing */
   border: 2px solid rgba(255, 235, 133, 1);  
   box-shadow: 0 0 0.313em rgba(255, 235, 133, 0.25);
@@ -113,15 +113,19 @@ img{
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   gap: 2em;
 }
 
 h2.edTitle {
   grid-column: span 2;
+  margin: 0;
+
+  
 }
 
 p.iconText {
-  max-width: 5em;
+  max-width: 100%;
   
 }
 
