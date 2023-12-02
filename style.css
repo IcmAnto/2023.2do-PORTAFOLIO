@@ -113,16 +113,13 @@ img{
   display: grid;
   grid-template-columns: repeat(3, 32%);
   column-gap: 1em;
+
+  padding: 2em;
 }
 
 #edificios > * {
   box-shadow: 2px 2px 5px rgb(0, 0, 0); 
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
-  height: 100%;
-
-
+  padding: 2em;
 }
 
 h2.edTitle {
@@ -163,5 +160,10 @@ p.iconText {
   margin-top: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
+  margin-left: 2%;
+  margin-right: 2em;
+}
+
+.ventanas>*{
+  margin:0.4em;
 }
