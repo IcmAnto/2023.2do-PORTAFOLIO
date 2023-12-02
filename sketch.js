@@ -60,7 +60,7 @@ createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  background(0, 63, 89);
+  background(5, 118, 140);
 
   circle(width-150, 150, 200)
   
