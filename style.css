@@ -114,8 +114,6 @@ img{
   border-top-left-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   margin: 0px;
-
-  
 }
 
 #edificios {
@@ -129,6 +127,7 @@ img{
   column-gap: 1em;
 
   padding: 2em;
+  padding-top: 0;
 }
 
 #edificios > * {
