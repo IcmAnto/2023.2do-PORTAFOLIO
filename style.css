@@ -64,12 +64,26 @@ p{
   font-size: 1.3em;
 }
 
+.window {
+  position: relative;
+  background-color: #ffffff;
+  border: 1em solid #ff4a4a74;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  overflow: hidden;
+}
+
 img{
-  max-width: 100%; 
-  height: auto;    /* Maintains aspect ratio when resizing */
-  border: 2px solid rgba(255, 235, 133, 1);  
-  box-shadow: 0 0 0.313em rgba(255, 235, 133, 0.25);
-  align-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0; /* Set initial opacity to 0 to hide the image */
+}
+
+.window:hover img {
+  opacity: 1; /* Set opacity to 1 on hover to show the image */
 }
 
 
