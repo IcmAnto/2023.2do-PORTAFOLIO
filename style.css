@@ -67,7 +67,7 @@ p{
 .window {
   position: relative;
   background-color: #ffffff;
-  border: 1em solid #ff4a4a74;
+  border: 0.7em solid #ff4a4a74;
   display: flex;
   align-items: center;
   justify-content: center;
