@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=League+Spartan:wght@100;400;600;700&display=swap');
+
+canvas { 
+    display: block; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  
+}
+
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1em;
+
+  background-color: #D79A25;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 17% 83%;
+  gap: 1em;
+}
+
+h1 {
+  font-family: 'Kavoon', serif;
+  font-size: 4em; 
+  color:white;
+
+  text-shadow: -0.063em -0.063em 0 rgba(5, 107, 130), 0.063em -0.063em 0 rgba(5, 107, 130), -0.063em 0.063em 0 rgba(5, 107, 130), 0.063em 0.063em 0 rgba(5, 107, 130), 0.063em 0.063em 0.313em rgb(0, 0, 0.5);
+  background-clip: text;
+  display: inline-block;
+
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 2em;
+  max-width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+p.subtitlee{
+  font-family: 'Kavoon', serif;
+  color: rgba(5, 107, 130);
+  text-shadow: -0.063em -0.063em 0 rgba(255, 255, 255, 1), 0.063em -0.063em 0 rgba(255, 255, 255, 1), -0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0.313em rgb(0, 0, 0);
+  background-clip: text;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+a {
+  color: black; /* Changes the color to black (or any color you prefer) */
+  font-size: 1.3em;
+}
+
+p{
+  font-size: 1.3em;
+}
