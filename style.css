@@ -50,7 +50,6 @@ p.subtitlee{
   color: rgba(5, 107, 130);
   text-shadow: -0.063em -0.063em 0 rgba(255, 255, 255, 1), 0.063em -0.063em 0 rgba(255, 255, 255, 1), -0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0 rgba(255, 255, 255, 1), 0.063em 0.063em 0.313em rgb(0, 0, 0);
   background-clip: text;
-  display: inline-block;
   font-size: 1.5em;
   margin-top: 0;
 }
@@ -139,8 +138,6 @@ img{
 h2.edTitle {
   grid-column: span 2;
   margin: 0;
-
-  
 }
 
 p.iconText {
